@@ -1,4 +1,4 @@
-resouce "azurerm_container_registry" "container_registry" {
+resource "azurerm_container_registry" "container_registry" {
   name                = var.app_name
   resource_group_name = azurerm_resource_group.practicum16.name
   location            = var.location
